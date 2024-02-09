@@ -1,0 +1,6 @@
+site_name: Herr Katze Documentation
+theme:
+  name: material
+  palette:
+  - scheme: slate
+    primary: blue
