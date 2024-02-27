@@ -1,4 +1,4 @@
-# HTTP API
+# HTTP API V1 (Deprecated)
 
 The CarrotPay HTTP API is the way to read data from the CarrotPay database.
 The API is on `carrotpay.herrkatze.com`
