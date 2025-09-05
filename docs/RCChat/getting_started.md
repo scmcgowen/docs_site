@@ -9,7 +9,7 @@ import asyncio
 async def main():
     cb = rcchat.chatbox.create("<your-license-key>")# Create chatbox instance
     
-    @cb.on_command("example"): # Register Event Handlers
+    @cb.on_command("example") # Register Event Handlers
     async def example_command(event: command):
         await cb.tell(event.user, "Example Command!")
         
