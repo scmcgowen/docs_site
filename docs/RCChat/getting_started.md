@@ -6,7 +6,7 @@ The general structure of a program using RCChat is as follows:
 ```python
 import rcchat
 import asyncio
-async def main()
+async def main():
     cb = rcchat.chatbox.create("<your-license-key>")# Create chatbox instance
     
     @cb.on_command("example"): # Register Event Handlers
